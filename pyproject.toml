@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "repl_nix_ChatGPT-Line-Bot"
+version = "0.1.0"
+description = ""
+authors = ["Replit user <<>>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Flask = "^2.2.3"
+line-bot-sdk = "^2.4.2"
+OpenCC = "^1.1.6"
+python-dotenv = "^1.0.0"
+requests = "^2.28.2"
+pandas = "^2.0.0"
+ipython = "^8.12.0"
+bs4 = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
